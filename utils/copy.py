@@ -1,12 +1,12 @@
 import os
 import shutil
 
-def copy_class(befor_dir, after_dir):
-    befor_path = os.path.join(befor_dir, 'classes.txt')
+def copy_class(before_dir, after_dir):
+    before_path = os.path.join(before_dir, 'classes.txt')
     after_path = os.path.join(after_dir, 'classes.txt')
     if not os.path.exists(after_dir):
         os.makedirs(after_dir)
-    shutil.copyfile(befor_path, after_path)
+    shutil.copyfile(before_path, after_path)
     print(after_path, 'saved')
 
 def creat_dir(reshape_dir, aug_save_dir, datasets_dir):
