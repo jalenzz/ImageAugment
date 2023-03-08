@@ -1,13 +1,13 @@
-from utils.reshape import *
-from utils.copy import *
-from utils.blur import *
-from utils.contrast import *
-from utils.cutout import *
-from utils.flip import *
-from utils.lightness import *
-from utils.sharpen import *
-from utils.vignetting import *
-from utils.contribute import *
+from my_package.reshape import *
+from my_package.copy import *
+from my_package.blur import *
+from my_package.contrast import *
+from my_package.cutout import *
+from my_package.flip import *
+from my_package.lightness import *
+from my_package.sharpen import *
+from my_package.vignetting import *
+from my_package.contribute import *
 
 raw_images_dir = './data/raw/images'
 raw_labels_dir = './data/raw/labels'
